@@ -1,0 +1,3 @@
+Spherical surface. PC1 (blue) and PC2 (orange) arrows start at the mean; lengths are enlarged for visibility, not a variance scale. Signs are arbitrary. Static preview of the 3D data; colors match the PCA projections.. n=320 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 33.35%, 33.33%, 33.32%. A sphere has a two-dimensional surface, but no single plane can represent it without losing information. Projection overlays the front and back. The three variance fractions are almost equal, so there is no clear low-variance direction to discard.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

@@ -1,0 +1,3 @@
+Original units. Observations without a PC arrow. Displayed coordinates remain in original units, matching the solution panel; PCA will be fitted after multiplying feature 1 by 100.. n=100 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 89.66%, 10.34%. Changing the numerical units of one variable can change PCA. Both panels show the same points in original units; the second PC1 axis is mapped back from data where x1 was multiplied by 100. Scaling must reflect the scientific question, not be chosen automatically.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

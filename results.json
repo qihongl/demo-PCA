@@ -1,0 +1,246 @@
+[
+  {
+    "example": "elongated_cloud",
+    "title": "Elongated cloud",
+    "n": 120,
+    "dimensions": 2,
+    "retained": 1,
+    "variance_fractions": [
+      0.9952422441447379,
+      0.004757755855262064
+    ],
+    "mean": [
+      6.016254743546866,
+      3.9602543398007954
+    ],
+    "components": [
+      [
+        0.8136559755538668,
+        0.5813466723440369
+      ],
+      [
+        -0.5813466723440369,
+        0.8136559755538668
+      ]
+    ],
+    "lesson": "PCA works well when observations lie near a straight line. The principal axis passes through the sample mean, even though the cloud is far from the origin."
+  },
+  {
+    "example": "circle",
+    "title": "Circle in 3D",
+    "n": 100,
+    "dimensions": 3,
+    "retained": 1,
+    "variance_fractions": [
+      0.5,
+      0.49999999999999994,
+      0.0
+    ],
+    "mean": [
+      2.331468351712829e-16,
+      1.7541523789077474e-16,
+      1.1657341758564143e-17
+    ],
+    "components": [
+      [
+        -0.3031269634639846,
+        0.5050075601331115,
+        0.8081345235970965
+      ],
+      [
+        0.7581429355258618,
+        0.6415871186947789,
+        -0.11655581683108275
+      ],
+      [
+        0.5773502691896258,
+        -0.5773502691896257,
+        0.5773502691896256
+      ]
+    ],
+    "lesson": "A circle in a tilted 3D plane has one intrinsic parameter (angle), but needs two linear coordinates. One PC retains 50% of variance and folds the circle onto a line. Two PCs retain 100% and recover the circle exactly. The first two eigenvalues are equal: any orthonormal pair in the circle plane is a valid PC1/PC2 basis."
+  },
+  {
+    "example": "low_variance_signal",
+    "title": "Class signal in PC2",
+    "n": 72,
+    "dimensions": 2,
+    "retained": 1,
+    "variance_fractions": [
+      0.9720668922234994,
+      0.027933107776500658
+    ],
+    "mean": [
+      -7.648203058528857e-16,
+      -3.623644594262664e-17
+    ],
+    "components": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "lesson": "PCA maximizes variance, not class separation. Here the two classes have identical PC1 scores, so their separation is lost even though PC1 explains most variance. Classes are used only for coloring, not fitting PCA."
+  },
+  {
+    "example": "outlier",
+    "title": "Outlier sensitivity",
+    "n": 81,
+    "dimensions": 2,
+    "retained": 1,
+    "variance_fractions": [
+      0.7303521148563166,
+      0.2696478851436835
+    ],
+    "mean": [
+      1.644774851296528e-17,
+      0.345679012345679
+    ],
+    "components": [
+      [
+        0.0034800334753460976,
+        0.9999939446651718
+      ],
+      [
+        0.9999939446651718,
+        -0.0034800334753460976
+      ]
+    ],
+    "lesson": "Squared deviations give a distant outlier a large influence. Adding one off-axis point rotates PC1 away from the main horizontal cloud. The dashed gray arrow is PC1 fitted without the outlier."
+  },
+  {
+    "example": "measurement_units",
+    "title": "Original units",
+    "n": 100,
+    "dimensions": 2,
+    "retained": 1,
+    "variance_fractions": [
+      0.8966296706588808,
+      0.10337032934111925
+    ],
+    "mean": [
+      -0.07558713714058723,
+      0.23439643215841388
+    ],
+    "components": [
+      [
+        -0.0025553486300393872,
+        0.9999967350913597
+      ],
+      [
+        0.9999967350913597,
+        0.0025553486300393872
+      ]
+    ],
+    "lesson": "Changing the numerical units of one variable can change PCA. Both panels show the same points in original units; the second PC1 axis is mapped back from data where x1 was multiplied by 100. Scaling must reflect the scientific question, not be chosen automatically."
+  },
+  {
+    "example": "tilted_plane",
+    "title": "Tilted plane",
+    "n": 220,
+    "dimensions": 3,
+    "retained": 2,
+    "variance_fractions": [
+      0.545808729304167,
+      0.4538549744808338,
+      0.0003362962149991826
+    ],
+    "mean": [
+      0.11800201021580553,
+      0.05868088392350141,
+      -0.05390298048922197
+    ],
+    "components": [
+      [
+        0.7478300137340987,
+        0.6573996390713321,
+        -0.0926066148141691
+      ],
+      [
+        -0.32695987289012146,
+        0.48610004846684113,
+        0.8104344417657795
+      ],
+      [
+        0.5777953894573175,
+        -0.5757885527078644,
+        0.5784635083498784
+      ]
+    ],
+    "lesson": "A nearly flat two-dimensional sheet can be recovered by two PCs, regardless of its orientation in 3D. The small third component mainly captures the added thickness."
+  },
+  {
+    "example": "swiss_roll",
+    "title": "Swiss roll",
+    "n": 405,
+    "dimensions": 3,
+    "retained": 2,
+    "variance_fractions": [
+      0.5025045702731252,
+      0.27654554552095173,
+      0.22094988420592296
+    ],
+    "mean": [
+      1.9463400176295442,
+      0.31385910753697854,
+      0.0031897792833333236
+    ],
+    "components": [
+      [
+        -0.0010279495592829418,
+        -0.0007882237625810899,
+        0.9999991610111498
+      ],
+      [
+        0.42135592300967006,
+        0.9068946291111809,
+        0.001147969495315254
+      ],
+      [
+        0.906894773093534,
+        -0.42135674955148555,
+        0.0006001191832903949
+      ]
+    ],
+    "lesson": "This is an intrinsically two-dimensional sheet, but it is curved. Two PCs make a linear shadow rather than unrolling the sheet; separated parts of the sheet overlap in the projection. Color tracks position along the roll."
+  },
+  {
+    "example": "sphere",
+    "title": "Spherical surface",
+    "n": 320,
+    "dimensions": 3,
+    "retained": 2,
+    "variance_fractions": [
+      0.33348507832477103,
+      0.33333709859403016,
+      0.3331778230811988
+    ],
+    "mean": [
+      0.00015409006841981803,
+      -8.025398374146113e-05,
+      7.355227538141662e-17
+    ],
+    "components": [
+      [
+        0.3280876399648644,
+        0.6299381604670901,
+        0.7039434739307016
+      ],
+      [
+        0.8869170559422854,
+        -0.4619287129835823,
+        -6.9349013609026115e-12
+      ],
+      [
+        -0.3251717029216323,
+        -0.6243394734506784,
+        0.7102559999819616
+      ]
+    ],
+    "lesson": "A sphere has a two-dimensional surface, but no single plane can represent it without losing information. Projection overlays the front and back. The three variance fractions are almost equal, so there is no clear low-variance direction to discard."
+  }
+]

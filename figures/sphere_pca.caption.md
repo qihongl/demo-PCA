@@ -1,0 +1,3 @@
+Spherical surface. Projection onto the first two principal components; the same observations and colors as in the 3D view.. n=320 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 33.35%, 33.33%, 33.32%. A sphere has a two-dimensional surface, but no single plane can represent it without losing information. Projection overlays the front and back. The three variance fractions are almost equal, so there is no clear low-variance direction to discard.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

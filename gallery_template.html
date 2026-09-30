@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCA teaching examples</title>
+  <style>
+    body {font:18px/1.5 system-ui,sans-serif;color:#18232c;margin:36px auto;max-width:1700px;padding:0 24px;background:white}
+    h1 {font-size:34px} h2 {font-size:25px}
+    section {border-top:1px solid #ddd;margin-top:40px;padding-top:24px}
+    .pair {display:flex;gap:20px;overflow-x:auto;padding-bottom:12px} figure {margin:0;flex:1;min-width:280px}
+    img {width:100%;height:auto} figcaption,.small {font-size:14px;color:#52606a}
+    a {color:#006eae} .actions {display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin-top:12px;font-size:14px}
+    button {font:600 14px system-ui,sans-serif;background:#006eae;color:white;border:0;border-radius:6px;padding:10px 14px;cursor:pointer}
+    button:hover {background:#005589} button:focus-visible,a:focus-visible {outline:3px solid #e69f00;outline-offset:3px}
+    button:disabled {opacity:.65;cursor:wait}
+    .copy-status {min-height:42px;margin:8px 0 0;font-size:13px;color:#52606a}
+    .copy-status[data-state="success"] {color:#14603f}
+    .copy-status[data-state="error"] {color:#9a3412}
+    .resolution {display:block;margin-top:3px;font-size:12px;color:#52606a}
+    @media(max-width:650px) {body{padding:0 12px}.pair{gap:12px}}
+  </style>
+</head>
+<body>
+  <h1>When PCA works—and what it can miss</h1>
+  <p>Eight reproducible synthetic examples. PCA is centered and uses the given feature scales. These are demonstrations, not neuroscience measurements.</p>
+  <p>All stages are shown side by side for review: data only, fitted principal components, and PCA projections. Scroll horizontally on smaller screens. Each figure is a separate file for your lecture slides.</p>
+  <p>Static panels copy a high-resolution PNG. Animated panels offer Copy GIF when supported by your browser, otherwise Download GIF. To preserve animation in Google Slides, download the GIF and use Insert → Image → Upload from computer.</p>
+  <p class="small">3D views rotate once every 20 seconds (20 fps). One-dimensional projections place every point on a single horizontal axis; identical scores overlap. PC1 arrows start at the mean and follow the fitted component direction; their lengths are enlarged for visibility, not a variance scale. PNGs are exported at 300 DPI.</p>
+  __CARDS__
+  <script type="application/json" id="clipboard-assets">__IMAGE_ASSETS__</script>
+  <script>__GALLERY_SCRIPT__</script>
+</body>
+</html>

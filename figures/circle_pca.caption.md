@@ -1,0 +1,3 @@
+Circle in 3D. One-PC scores on a single horizontal axis. All vertical coordinates are exactly zero; observations with identical scores overlap.. n=100 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 50.00%, 50.00%, 0.00%. A circle in a tilted 3D plane has one intrinsic parameter (angle), but needs two linear coordinates. One PC retains 50% of variance and folds the circle onto a line. Two PCs retain 100% and recover the circle exactly. The first two eigenvalues are equal: any orthonormal pair in the circle plane is a valid PC1/PC2 basis.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

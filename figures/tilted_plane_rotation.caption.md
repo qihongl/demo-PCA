@@ -1,0 +1,3 @@
+Tilted plane. Fixed dataset; only the camera rotates, 360 degrees in 20 seconds at 20 fps. Constant camera elevation and axis limits. Color matches the PCA panel.. n=220 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 54.58%, 45.39%, 0.03%. A nearly flat two-dimensional sheet can be recovered by two PCs, regardless of its orientation in 3D. The small third component mainly captures the added thickness.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

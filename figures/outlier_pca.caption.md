@@ -1,0 +1,3 @@
+Outlier sensitivity. One-PC scores on a single horizontal axis. All vertical coordinates are exactly zero; observations with identical scores overlap.. n=81 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Main cloud n=80, outlier n=1; shared legend is outlier_original-legend.png. Centered covariance PCA; no variance standardization. Explained-variance fractions: 73.04%, 26.96%. Squared deviations give a distant outlier a large influence. Adding one off-axis point rotates PC1 away from the main horizontal cloud. The dashed gray arrow is PC1 fitted without the outlier.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

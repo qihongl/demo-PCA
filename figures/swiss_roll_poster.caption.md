@@ -1,0 +1,3 @@
+Swiss roll. Data only, without PC arrows, for a prediction exercise. Static preview of the 3D data; colors match the PCA projections.. n=405 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 50.25%, 27.65%, 22.09%. This is an intrinsically two-dimensional sheet, but it is curved. Two PCs make a linear shadow rather than unrolling the sheet; separated parts of the sheet overlap in the projection. Color tracks position along the roll.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

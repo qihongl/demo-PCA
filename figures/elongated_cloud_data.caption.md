@@ -1,0 +1,3 @@
+Elongated cloud. Original observations without principal-component arrows, for a prediction exercise. Points, colors, and axis limits match the version with arrows. Equal scale per unit and equal numerical ranges on both axes.. n=120 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Centered covariance PCA; no variance standardization. Explained-variance fractions: 99.52%, 0.48%. PCA works well when observations lie near a straight line. The principal axis passes through the sample mean, even though the cloud is far from the origin.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.

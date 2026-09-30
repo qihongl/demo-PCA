@@ -1,0 +1,3 @@
+Class signal in PC2. One-PC scores on a single horizontal axis. All vertical coordinates are exactly zero; observations with identical scores overlap.. n=72 synthetic observations; feature units arbitrary except for the explicitly demonstrated unit conversion. Group A and B each have 36 observations; shared legend is low_variance_signal_original-legend.png. Centered covariance PCA; no variance standardization. Explained-variance fractions: 97.21%, 2.79%. PCA maximizes variance, not class separation. Here the two classes have identical PC1 scores, so their separation is lost even though PC1 explains most variance. Classes are used only for coloring, not fitting PCA.
+
+Uncertainty: Raw synthetic observations; no inferential confidence intervals apply.
